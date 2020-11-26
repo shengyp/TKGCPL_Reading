@@ -1,7 +1,7 @@
 # Knowledge-enriched Text Generation Reading-List
 
-Here is a list of recent publications about **Knowledge-enhanced text generation**.
-(Update on **Nov 5th, 2020**) <br>
+Here is a list of recent publications about **Embedding models of entities and relationships for temporal knowledge base completion**.
+(Update on **Nov 26th, 2020**) <br>
 
 -- We will continue to add and update related papers and codes on this page.
 
@@ -11,7 +11,8 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 
 [A Survey of knoweldge-enhanced Text Generation](https://arxiv.org/abs/2010.04389). Wenhao Yu (ND), Chenguang Zhu (Microsoft), Zaitang Li (CUHK), Zhiting Hu (UCSD), Qingyun Wang (UIUC), Heng Ji (UIUC), Meng Jiang (ND). arXiv. 2010.04389
 
-> To the best of our knowledge, our survey is the first work that presents a comprehensive reviewof knowledge-enhanced text generation. It aims to provide NLG researchers a synthesis and pointer to related researches. Our survey also includes a detailed discussion about how NLG can benefit from recent progress in deep learning and artificial intelligence, including technologies such as graph neural network, reinforcement learning, neural topic modeling and so on.
+> To the best of our knowledge, our survey is the first work that presents a comprehensive review of embedding models for temporal knowledge base completion
+. It aims to provide NLG researchers a synthesis and pointer to related researches. Our survey also includes a detailed discussion about how NLG can benefit from recent progress in deep learning and artificial intelligence, including technologies such as graph neural network, reinforcement learning, neural topic modeling and so on.
 
 ## Basic NLG papers and codes
 (For new learners, some important papers for general NLG/KENLG.)
@@ -21,31 +22,31 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 - <img src="images/hot.png" width="20" align=center> [SeqAttn] [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)
 	- Dzmitry Bahdanau (Jacobs University) et al, In ICLR 2015.
 - <img src="images/hot.png" width="20" align=center> [CopyNet] [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393)
-	- Jiatao Gu (The University of Hong Kong) et al, In ACL 2016.
+<!-- 	- Jiatao Gu (The University of Hong Kong) et al, In ACL 2016.
 - <img src="images/hot.png" width="20" align=center> [PointerNet] [Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368)
 	- Abigail See (Stanford University) et al, In ACL 2017.
 - <img src="images/hot.png" width="20" align=center> [Transformer] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 	- Ashish Vaswani (Google) et al, In NeurIPS 2017.
-
+ -->
 ## Pretrained language generation models
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center>  [GPT-2] [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 	- Alec Radford (OpenAI) et al, On OpenAI blog 2019. \[[official code](https://github.com/openai/gpt-2/blob/master/src/model.py)\](tensorflow) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/language-modeling)\](pytorch)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [UniLM] [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
 	- Li Dong (Microsoft) et al, In NeurIPS 2019. \[[official code](https://github.com/microsoft/unilm)\](pytorch)
-- <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [BART] [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)
+<!-- - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [BART] [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)
 	- Mike Lewis (Facebook AI) et al, On arXiv 2019. \[[fairseq](https://github.com/pytorch/fairseq)\](pytorch) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/seq2seq)\](pytorch)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [T5] [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
-	- Colin Raffel (Google) et al, In JMLR 2020. \[[official code](https://github.com/google-research/text-to-text-transfer-transformer)\](tensorflow) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/seq2seq)\](pytorch)
+	- Colin Raffel (Google) et al, In JMLR 2020. \[[official code](https://github.com/google-research/text-to-text-transfer-transformer)\](tensorflow) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/seq2seq)\](pytorch) -->
 
 ## Controllable generation leanrng methods
 - <img src="images/hot.png" width="20" align=center>  [Posterior Regularization] [Deep Generative Models with Learnable Knowledge Constraints](http://papers.nips.cc/paper/8250-deep-generative-models-with-learnable-knowledge-constraints.pdf)
 	- Zhiting Hu (Carnegie Mellon University) et al, In NeurIPS 2018.
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Plug and Play] [Plug and Play Language Models: A Simple Approach to Controlled Text Generation](https://arxiv.org/abs/1912.02164)
-	- Sumanth Dathathri (Uber AI) et al, In ICLR 2020. \[[code](https://github.com/uber-research/PPLM)\](pytorch)
+<!-- 	- Sumanth Dathathri (Uber AI) et al, In ICLR 2020. \[[code](https://github.com/uber-research/PPLM)\](pytorch)
 - [Backprop-based Decoding] [Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning](https://arxiv.org/abs/2010.05906)
 	- Lianhui Qin (University of Washington) et al, In EMNLP 2020.
 - <img src="images/code.png" width="20" align=center> [Weakly Supervision] [Summarizing Text on Any Aspects: A Knowledge-Informed Weakly-Supervised Approach](https://arxiv.org/abs/2010.06792)
-	- Bowen Tan (Carnegie Mellon University) et al, In EMNLP 2020. \[[code](https://github.com/tanyuqian/aspect-based-summarization)\]
+	- Bowen Tan (Carnegie Mellon University) et al, In EMNLP 2020. \[[code](https://github.com/tanyuqian/aspect-based-summarization)\] -->
 
 
 ## Topic-enhanced text generation
@@ -55,7 +56,7 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 	- Minghong Xu (Shandong University) et al, In ECAI 2020. \[[code](https://github.com/Minghong-Xu/Neural_Topical_Expansion_for_UPDS)\](tensorflow)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Summarization] [Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization](https://arxiv.org/abs/1808.08745)
 	- Shashi Narayan (University of Edinburgh) et al, In EMNLP 2018. \[[code](https://github.com/EdinburghNLP/XSum)\](pytorch)
-- <img src="images/hot.png" width="20" align=center> [Summarization] [Topic-Guided Variational Autoencoders for Text Generation](https://arxiv.org/abs/1903.07137)
+<!-- - <img src="images/hot.png" width="20" align=center> [Summarization] [Topic-Guided Variational Autoencoders for Text Generation](https://arxiv.org/abs/1903.07137)
 	- Wenlin Wang (Duke University) et al, In NAACL 2019.
 - [Summarization] [Document Summarization with VHTM: Variational Hierarchical Topic-Aware Mechanism](https://aaai.org/ojs/index.php/AAAI/article/view/6277)
 	- Xiyan Fu (Nankai Univeristy) et al, In AAAI 2020.
@@ -67,7 +68,7 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 	- Xiangpeng Wei (Chinese Academy of Sciences) et al, In AAAI 2019.
 - [Topic Transfer] [A Topic Augmented Text Generation Model: Joint Learning of Semantics and Structural Features](https://www.aclweb.org/anthology/D19-1513.pdf)
 	- Hongyin Tang (Chinese Academy of Sciences) et al, In EMNLP 2019.
-
+ -->
 
 ## Keyword-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [Sequence to Backward and Forward Sequences: A Content-Introducing Approach to Generative Short-Text Conversation](https://arxiv.org/pdf/1607.00970.pdf)
@@ -77,13 +78,13 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 - <img src="images/hot.png" width="20" align=center> [Dialogue System] [Generating Responses with a Specific Emotion in Dialog](https://www.aclweb.org/anthology/P19-1359.pdf)
 	- Zhenqiao Song (Fudan University) et al, In ACL 2019.
 - [Summarization] [Guiding Generation for Abstractive Text Summarization based on Key Information Guide Network](https://www.aclweb.org/anthology/N18-2009.pdf)
-	- Chenliang Li (Beijing University of Posts and Telecommunications) et al, In NAACL 2018.
+<!-- 	- Chenliang Li (Beijing University of Posts and Telecommunications) et al, In NAACL 2018.
 - [Summarization] [Inferring Search Queries from Web Documents via a Graph-Augmented Sequence to Attention Network](https://dl.acm.org/doi/pdf/10.1145/3308558.3313746?casa_token=bIgxBamZyDkAAAAA:Oqmf3xhi_tIqBHoBZQsAHDb-OAeUBuLuAiAP4civXgx5DcJa45cMf5SjWPDAJO3U0_zJPG4oOt1aqA)
 	- Fred X. Han (University of Alberta) et al, In WWW 2019.
 - <img src="images/code.png" width="20" align=center> [Summarization] [Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model](https://arxiv.org/pdf/1906.01231.pdf)
 	- Wei Li (Peking University) et al, In ACL 2019. \[[code](https://github.com/lancopku/Graph-to-seq-comment-generation)\](pytorch)
 - [Summarization] [Keywords-Guided Abstractive Sentence Summarization](https://pdfs.semanticscholar.org/4e8d/103703fda8875f13c7593d80bc7428f05ded.pdf?_ga=2.124808970.1605688764.1602448023-651806684.1580066755&_gac=1.89511017.1599265589.Cj0KCQjwy8f6BRC7ARIsAPIXOjiX6Icl-pa3DjJSds7dc1teH9asRBgylw-EJHrcZfi8qlL0U9nJky4aAiD4EALw_wcB)
-	- Haoran Li (JD AI Research) et al, In AAAI 2020.
+	- Haoran Li (JD AI Research) et al, In AAAI 2020. -->
 
 ## Knowledge base-enhanced text generation
 - <img src="images/hot.png" width="20" align=center> [Question Answering] [Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning](https://www.aclweb.org/anthology/P17-1019.pdf)
@@ -98,7 +99,7 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 	- Jian Wang (South China University of Technology) et al, In AAAI 2020. \[[code](https://github.com/siat-nlp/TransDG)\](pytorch)
 - [Dialogue System] [Learning to Select Knowledge for Response Generation in Dialog Systems](https://arxiv.org/abs/1902.04911)
 	- Rongzhong Lian (Baidu) et al, In IJCAI 2019.
-- <img src="images/code.png" width="20" align=center> [Dialogue System] [Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness](https://www.aclweb.org/anthology/2020.acl-main.515.pdf)
+<!-- - <img src="images/code.png" width="20" align=center> [Dialogue System] [Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness](https://www.aclweb.org/anthology/2020.acl-main.515.pdf)
 	- Sixing Wu (Peking University) et al, In ACL 2020. \[[code](https://github.com/pku-orangecat/ACL2020-ConKADI)\](tensorflow)
 - <img src="images/code.png" width="20" align=center> [Dialogue System] [TopicKA: Generating Commonsense Knowledge-Aware Dialogue Responses Towards the Recommended Topic Fact](https://www.ijcai.org/Proceedings/2020/0521.pdf)
 	- Sixing Wu (Peking University) et al, In IJCAI 2020. \[[code](https://github.com/pku-orangecat/IJCAI2020-TopicKA)\]
@@ -109,7 +110,7 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 - [Summarization] [Exploring Human-Like Reading Strategy for Abstractive Text Summarization](https://www.aaai.org/ojs/index.php/AAAI/article/view/4724)
 	- Min Yang (Chinese Academy of Sciences) et al, In AAAI 2019.
 - <img src="images/code.png" width="20" align=center> [Table-to-text] [Describing a Knowledge Base](https://www.aclweb.org/anthology/W18-6502.pdf)
-	- Qingyun Wang (UIUC) et al, in INLG 2018. [[Official code]](https://github.com/EagleW/Describing_a_Knowledge_Base) (pytorch) [[Slides]](https://eaglew.github.io/files/Wikipedia.pdf)
+	- Qingyun Wang (UIUC) et al, in INLG 2018. [[Official code]](https://github.com/EagleW/Describing_a_Knowledge_Base) (pytorch) [[Slides]](https://eaglew.github.io/files/Wikipedia.pdf) -->
 
 ## Knowledge graph-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [Commonsense Knowledge Aware Conversation Generation with Graph Attention](https://www.ijcai.org/Proceedings/2018/0643.pdf)
@@ -125,7 +126,7 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Scientific Writing] [Text Generation from Knowledge Graphs with Graph Transformers](https://arxiv.org/pdf/1904.02342.pdf)
 	- Rik Koncel-Kedziorski (University of Washington) et al, In NAACL 2018. \[[code](https://github.com/rikdz/GraphWriter)\](pytorch)
 - <img src="images/code.png" width="20" align=center> [Scientific Writing] [PaperRobot: Incremental Draft Generation of Scientific Ideas](https://arxiv.org/pdf/1905.07870.pdf)
-	- Qingyun Wang (Rensselaer Polytechnic Institute) et al, In ACL 2019. \[[code](https://github.com/EagleW/PaperRobot)\](pytorch)
+<!-- 	- Qingyun Wang (Rensselaer Polytechnic Institute) et al, In ACL 2019. \[[code](https://github.com/EagleW/PaperRobot)\](pytorch)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Story Generation] [Story Ending Generation with Incremental Encoding and Commonsense Knowledge](https://arxiv.org/abs/1808.10113)
 	- Jian Guan (Tsinghua University) et al, In AAAI 2019. \[[code](https://github.com/JianGuanTHU/StoryEndGen)\](tensorflow)
 - <img src="images/code.png" width="20" align=center> [Story Generation] [Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph](https://arxiv.org/abs/2009.11692)
@@ -135,25 +136,25 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 - [Machine Translation] [Knowledge Graphs Enhanced Neural Machine Translation](https://www.ijcai.org/Proceedings/2020/0559.pdf)
 	- Yang Zhao (Chinese Academy of Sciences) et al, In IJCAI 2020.
 - [Summarization] [Incorporating Commonsense Knowledge into Abstractive Dialogue Summarization via Heterogeneous Graph Networks](https://arxiv.org/abs/2010.10044)
-	- Xiachong Feng (Harbin Institute of Technology) et al, On arXiv 2020.
+	- Xiachong Feng (Harbin Institute of Technology) et al, On arXiv 2020. -->
 
 ## Open knowledge graph-enhanced text generation <br> (Knowledge graph constructed by OpenIE)
 - [Question Answering] [Using Local Knowledge Graph Construction to Scale Seq2Seq Models to Multi-Document Inputs](https://arxiv.org/abs/1910.08435)
 	- Angela Fan (Facebook AI Research) et al, In EMNLP 2019.
 - <img src="images/code.png" width="20" align=center> [Summarization] [Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward](https://arxiv.org/abs/2005.01159)
-	- Luyang Huang (Northeastern University) et al, In ACL 2020. \[[code](https://github.com/luyang-huang96/GraphAugmentedSum)\](pytorch)
+<!-- 	- Luyang Huang (Northeastern University) et al, In ACL 2020. \[[code](https://github.com/luyang-huang96/GraphAugmentedSum)\](pytorch)
 - [Summarization] [Boosting Factual Correctness of Abstractive Summarization with Knowledge Graph](https://arxiv.org/abs/2003.08612)
 	- Chenguang Zhu (Microsoft Research) et al, On arXiv 2020.
 - <img src="images/code.png" width="20" align=center> [Summarization] [Heterogeneous Graph Neural Networks for Extractive Document Summarization](https://arxiv.org/abs/2004.12393)
 	- Danqing Wang (Fudan University) et al, In ACL 2020. \[[code](https://github.com/brxx122/HeterSUMGraph)\](pytorch)
-
+ -->
 
 ## Grounded text-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [A Knowledge-Grounded Neural Conversation Model](https://arxiv.org/abs/1702.01932)
 	- Marjan Ghazvininejad (University of Southern California) et al, In AAAI 2018. \[[data](https://github.com/mgalley/DSTC7-End-to-End-Conversation-Modeling)\]
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [Wizard of Wikipedia: Knowledge-Powered Conversational agents](https://arxiv.org/pdf/1811.01241.pdf)
 	- Emily Dinan (Facebook AI Research) et al, In ICLR 2019. \[[code](https://github.com/facebookresearch/ParlAI/tree/master/projects/wizard_of_wikipedia)\](pytorch)
-- <img src="images/code.png" width="20" align=center> [Dialogue System] [Sequential Latent Knowledge Selection for Knowledge-Grounded Dialogue](https://arxiv.org/abs/2002.07510)
+<!-- - <img src="images/code.png" width="20" align=center> [Dialogue System] [Sequential Latent Knowledge Selection for Knowledge-Grounded Dialogue](https://arxiv.org/abs/2002.07510)
 	- Byeongchang Kim (Seoul National University) et al, In ICLR 2020. \[[code](https://github.com/bckim92/sequential-knowledge-transformer)\](tensorflow)
 - [Dialogue System] [DeepCopy: Grounded Response Generation with Hierarchical Pointer Networks](https://arxiv.org/abs/1908.10731)
 	- Semih Yavuz (University of California, Santa Barbara) et al, In SIGDIAL 2019.
@@ -170,23 +171,25 @@ Here is a list of recent publications about **Knowledge-enhanced text generation
 - <img src="images/code.png" width="20" align=center> [Summarization] [BiSET: Bi-directional Selective Encoding with Template for Abstractive Summarization](https://arxiv.org/abs/1906.05012)
 	- Kai Wang (Sun Yat-sen University) et al, In ACL 2019. \[[code](https://github.com/InitialBug/BiSET)\](pytorch)
 - [Paraphrase] [Paraphrase Generation by Learning How to Edit from Samples](https://www.aclweb.org/anthology/2020.acl-main.535.pdf)
-	- Amirhossein Kazemnejad (Iran University of Science and Technology) et al, In ACL 2020.
+	- Amirhossein Kazemnejad (Iran University of Science and Technology) et al, In ACL 2020. -->
 
 ## Knowledge-enhanced pretraining
 - <img src="images/code.png" width="20" align=center> [KG + LM] [A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation](https://arxiv.org/abs/1906.05012)
 	- Jian Guan (Tsinghua University) et al, In TACL 2020. \[[code](https://github.com/JianGuanTHU/CommonsenseStoryGen)\](tensorflow)
-- <img src="images/code.png" width="20" align=center> [Commonsense + LM] [Abductive Commonsense Reasoning](https://arxiv.org/abs/1908.05739)
+<!-- - <img src="images/code.png" width="20" align=center> [Commonsense + LM] [Abductive Commonsense Reasoning](https://arxiv.org/abs/1908.05739)
 	- Chandra Bhagavatula (Allen Institute for AI) et al, In ICLR 2020. \[[code](https://github.com/allenai/abductive-commonsense-reasoning)\](pytorch)
 - <img src="images/code.png" width="20" align=center> [Table + LM] [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://www.aclweb.org/anthology/2020.acl-main.398.pdf)
 	- Jonathan Herzig (Google) et al, in ACL 2020. [[official code]](https://github.com/google-research/tapas#how-to-cite-tapas) (tensorflow) [[video]](https://www.youtube.com/watch?v=cIUtRNhY6Rw&ab_channel=YannicKilcher)
 - [KG + LM] [JAKET: Joint Pre-training of Knowledge Graph and Language Understanding](https://arxiv.org/abs/2010.00796)
-	- Donghan Yu (Carnegie Mellon University) et al, On arXiv 2020.
+	- Donghan Yu (Carnegie Mellon University) et al, On arXiv 2020. -->
+
+
 ## Citation
 
 ```
 @article{yu2020survey,
   title={A Survey of Knowledge-Enhanced Text Generation},
-  author={Yu, Wenhao and Zhu, Chenguang and Li, Zaitang and Hu, Zhiting and Wang, Qingyun and Ji, Heng and Jiang, Meng},
+  author={Sheng, Yongpan and He, Lirong and Zhang, Jiasheng and Hu, Zhiting and Wang, Qingyun and Ji, Heng and Jiang, Meng and Shao, Jie},
   journal={arXiv preprint arXiv:2010.04389},
   year={2020}
 }
