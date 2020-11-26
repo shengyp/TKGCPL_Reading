@@ -11,8 +11,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 
 [An overview of embedding models of entities and relationships for temporal knowledge base completion](https://arxiv.org/abs/2010.04389). Wenhao Yu (ND), Chenguang Zhu (Microsoft), Zaitang Li (CUHK), Zhiting Hu (UCSD), Qingyun Wang (UIUC), Heng Ji (UIUC), Meng Jiang (ND). arXiv. 2010.04389
 
-> To the best of our knowledge, our survey is the first work that presents a comprehensive review of embedding models for temporal knowledge base completion
-. It aims to provide NLG researchers a synthesis and pointer to related researches. Our survey also includes a detailed discussion about how NLG can benefit from recent progress in deep learning and artificial intelligence, including technologies such as graph neural network, reinforcement learning, neural topic modeling and so on.
+> To the best of our knowledge, our survey is the first work that presents a comprehensive review of embedding models for temporal knowledge base completion. It aims to provide NLG researchers a synthesis and pointer to related researches. Our survey also includes a detailed discussion about how NLG can benefit from recent progress in deep learning and artificial intelligence, including technologies such as graph neural network, reinforcement learning, neural topic modeling and so on.
 
 
 ## Basic NLG papers and codes
