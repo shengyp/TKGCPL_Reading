@@ -1,4 +1,4 @@
-# Knowledge-enriched Text Generation Reading-List
+# Reading-List in embedding models for temporal knowledge base completion 
 
 Here is a list of recent publications about **Embedding models of entities and relationships for temporal knowledge base completion**.
 (Update on **Nov 26th, 2020**) <br>
@@ -9,10 +9,11 @@ Here is a list of recent publications about **Embedding models of entities and r
 
 ## <img src="images/new.png" width="25" align=center> Survey paper
 
-[A Survey of knoweldge-enhanced Text Generation](https://arxiv.org/abs/2010.04389). Wenhao Yu (ND), Chenguang Zhu (Microsoft), Zaitang Li (CUHK), Zhiting Hu (UCSD), Qingyun Wang (UIUC), Heng Ji (UIUC), Meng Jiang (ND). arXiv. 2010.04389
+[An overview of embedding models of entities and relationships for temporal knowledge base completion](https://arxiv.org/abs/2010.04389). Wenhao Yu (ND), Chenguang Zhu (Microsoft), Zaitang Li (CUHK), Zhiting Hu (UCSD), Qingyun Wang (UIUC), Heng Ji (UIUC), Meng Jiang (ND). arXiv. 2010.04389
 
 > To the best of our knowledge, our survey is the first work that presents a comprehensive review of embedding models for temporal knowledge base completion
 . It aims to provide NLG researchers a synthesis and pointer to related researches. Our survey also includes a detailed discussion about how NLG can benefit from recent progress in deep learning and artificial intelligence, including technologies such as graph neural network, reinforcement learning, neural topic modeling and so on.
+
 
 ## Basic NLG papers and codes
 (For new learners, some important papers for general NLG/KENLG.)
@@ -28,6 +29,8 @@ Here is a list of recent publications about **Embedding models of entities and r
 - <img src="images/hot.png" width="20" align=center> [Transformer] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 	- Ashish Vaswani (Google) et al, In NeurIPS 2017.
  -->
+
+
 ## Pretrained language generation models
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center>  [GPT-2] [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 	- Alec Radford (OpenAI) et al, On OpenAI blog 2019. \[[official code](https://github.com/openai/gpt-2/blob/master/src/model.py)\](tensorflow) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/language-modeling)\](pytorch)
@@ -37,6 +40,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 	- Mike Lewis (Facebook AI) et al, On arXiv 2019. \[[fairseq](https://github.com/pytorch/fairseq)\](pytorch) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/seq2seq)\](pytorch)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [T5] [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
 	- Colin Raffel (Google) et al, In JMLR 2020. \[[official code](https://github.com/google-research/text-to-text-transfer-transformer)\](tensorflow) \[[huggingface](https://github.com/huggingface/transformers/tree/master/examples/seq2seq)\](pytorch) -->
+
 
 ## Controllable generation leanrng methods
 - <img src="images/hot.png" width="20" align=center>  [Posterior Regularization] [Deep Generative Models with Learnable Knowledge Constraints](http://papers.nips.cc/paper/8250-deep-generative-models-with-learnable-knowledge-constraints.pdf)
@@ -70,6 +74,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 	- Hongyin Tang (Chinese Academy of Sciences) et al, In EMNLP 2019.
  -->
 
+
 ## Keyword-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [Sequence to Backward and Forward Sequences: A Content-Introducing Approach to Generative Short-Text Conversation](https://arxiv.org/pdf/1607.00970.pdf)
 	- Lili Mou (Peking University) et al, In COLING 2016. \[[code](https://github.com/MaZhiyuanBUAA/Seq2BFforDialogueGeneration)\](tensorflow)
@@ -85,6 +90,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 	- Wei Li (Peking University) et al, In ACL 2019. \[[code](https://github.com/lancopku/Graph-to-seq-comment-generation)\](pytorch)
 - [Summarization] [Keywords-Guided Abstractive Sentence Summarization](https://pdfs.semanticscholar.org/4e8d/103703fda8875f13c7593d80bc7428f05ded.pdf?_ga=2.124808970.1605688764.1602448023-651806684.1580066755&_gac=1.89511017.1599265589.Cj0KCQjwy8f6BRC7ARIsAPIXOjiX6Icl-pa3DjJSds7dc1teH9asRBgylw-EJHrcZfi8qlL0U9nJky4aAiD4EALw_wcB)
 	- Haoran Li (JD AI Research) et al, In AAAI 2020. -->
+
 
 ## Knowledge base-enhanced text generation
 - <img src="images/hot.png" width="20" align=center> [Question Answering] [Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning](https://www.aclweb.org/anthology/P17-1019.pdf)
@@ -112,6 +118,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 - <img src="images/code.png" width="20" align=center> [Table-to-text] [Describing a Knowledge Base](https://www.aclweb.org/anthology/W18-6502.pdf)
 	- Qingyun Wang (UIUC) et al, in INLG 2018. [[Official code]](https://github.com/EagleW/Describing_a_Knowledge_Base) (pytorch) [[Slides]](https://eaglew.github.io/files/Wikipedia.pdf) -->
 
+
 ## Knowledge graph-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [Commonsense Knowledge Aware Conversation Generation with Graph Attention](https://www.ijcai.org/Proceedings/2018/0643.pdf)
 	- Hao Zhou (Tsinghua University) et al, In IJCAI 2018. \[[code](https://github.com/thu-coai/ccm)\](tensorflow) \[[code](https://github.com/Lyusungwon/CCM-pytorch)\](pytorch)
@@ -121,11 +128,11 @@ Here is a list of recent publications about **Embedding models of entities and r
 	- Yi-Lin Tuan (National Taiwan University) et al, In EMNLP 2019. \[[code](https://github.com/Pascalson/DyKGChat)\](tensorflow)
 - <img src="images/code.png" width="20" align=center> [Dialogue System] [Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs](https://arxiv.org/abs/1911.02707)
 	- Houyu Zhang (Brown University) et al, In ACL 2020. \[[code](https://github.com/thunlp/ConceptFlow)\](pytorch)
-- <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Question Answering] [Commonsense for Generative Multi-Hop Question Answering Tasks](https://arxiv.org/abs/1809.06309)
+<!-- - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Question Answering] [Commonsense for Generative Multi-Hop Question Answering Tasks](https://arxiv.org/abs/1809.06309)
 	- Lisa Bauer (University of North Carolina at Chapel Hill) et al, In EMNLP 2018. \[[code](https://github.com/yicheng-w/CommonSenseMultiHopQA)\](tensorflow)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Scientific Writing] [Text Generation from Knowledge Graphs with Graph Transformers](https://arxiv.org/pdf/1904.02342.pdf)
 	- Rik Koncel-Kedziorski (University of Washington) et al, In NAACL 2018. \[[code](https://github.com/rikdz/GraphWriter)\](pytorch)
-- <img src="images/code.png" width="20" align=center> [Scientific Writing] [PaperRobot: Incremental Draft Generation of Scientific Ideas](https://arxiv.org/pdf/1905.07870.pdf)
+- <img src="images/code.png" width="20" align=center> [Scientific Writing] [PaperRobot: Incremental Draft Generation of Scientific Ideas](https://arxiv.org/pdf/1905.07870.pdf) -->
 <!-- 	- Qingyun Wang (Rensselaer Polytechnic Institute) et al, In ACL 2019. \[[code](https://github.com/EagleW/PaperRobot)\](pytorch)
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Story Generation] [Story Ending Generation with Incremental Encoding and Commonsense Knowledge](https://arxiv.org/abs/1808.10113)
 	- Jian Guan (Tsinghua University) et al, In AAAI 2019. \[[code](https://github.com/JianGuanTHU/StoryEndGen)\](tensorflow)
@@ -138,6 +145,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 - [Summarization] [Incorporating Commonsense Knowledge into Abstractive Dialogue Summarization via Heterogeneous Graph Networks](https://arxiv.org/abs/2010.10044)
 	- Xiachong Feng (Harbin Institute of Technology) et al, On arXiv 2020. -->
 
+
 ## Open knowledge graph-enhanced text generation <br> (Knowledge graph constructed by OpenIE)
 - [Question Answering] [Using Local Knowledge Graph Construction to Scale Seq2Seq Models to Multi-Document Inputs](https://arxiv.org/abs/1910.08435)
 	- Angela Fan (Facebook AI Research) et al, In EMNLP 2019.
@@ -148,6 +156,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 - <img src="images/code.png" width="20" align=center> [Summarization] [Heterogeneous Graph Neural Networks for Extractive Document Summarization](https://arxiv.org/abs/2004.12393)
 	- Danqing Wang (Fudan University) et al, In ACL 2020. \[[code](https://github.com/brxx122/HeterSUMGraph)\](pytorch)
  -->
+
 
 ## Grounded text-enhanced text generation
 - <img src="images/code.png" width="20" align=center> <img src="images/hot.png" width="20" align=center> [Dialogue System] [A Knowledge-Grounded Neural Conversation Model](https://arxiv.org/abs/1702.01932)
@@ -172,6 +181,7 @@ Here is a list of recent publications about **Embedding models of entities and r
 	- Kai Wang (Sun Yat-sen University) et al, In ACL 2019. \[[code](https://github.com/InitialBug/BiSET)\](pytorch)
 - [Paraphrase] [Paraphrase Generation by Learning How to Edit from Samples](https://www.aclweb.org/anthology/2020.acl-main.535.pdf)
 	- Amirhossein Kazemnejad (Iran University of Science and Technology) et al, In ACL 2020. -->
+
 
 ## Knowledge-enhanced pretraining
 - <img src="images/code.png" width="20" align=center> [KG + LM] [A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation](https://arxiv.org/abs/1906.05012)
