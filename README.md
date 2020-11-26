@@ -207,4 +207,4 @@ Here is a list of recent publications about **Embedding models of entities and r
 
 ## Acknowledgement
 
-<img src="images/ack.png" width="20" align=center> This page is contributed by [Wenhao Yu](https://wyu97.github.io/)(wyu1@nd.edu) and [Qingyun Wang](https://eaglew.github.io/cv/)(qingyun4@illinois.edu).
+<img src="images/ack.png" width="20" align=center> This page is contributed by [Yongpan Sheng](https://github.com/shengyp/)(shengyp2011@163.com) and [Jiasheng Zhang](https://github.com/zjs123)(zjss12358@163.com).
